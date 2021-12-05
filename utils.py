@@ -88,8 +88,8 @@ def split_dataset(root_dir, dest_dir, test_ratio=0.2, val_ratio=0.1):
 
 
 def size_output_layer(width, kernel, stride, padding):
-    # TECHO[((P + N - k ) / S ) +  1]
-    return math.ceil(((width - kernel + padding) / stride) + 1)
+    # PISO[((2P + N - k ) / S ) +  1]
+    return math.floor(((width - kernel + (2*padding)) / stride) + 1)
 
 
 class CNN(nn.Module):
