@@ -11,3 +11,10 @@ El dataset, tiene información de 4 grupos de imágenes. Los grupos de imágenes
 El dataset se encuentra en la siguiente ruta:
 
 https://www.kaggle.com/tawsifurrahman/covid19-radiography-database
+
+
+Integrantes del proyecto:
+
+- Allen Velasco
+- José Casiano
+- Marco Anchiraico
